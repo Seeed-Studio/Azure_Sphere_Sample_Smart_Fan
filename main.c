@@ -19,11 +19,9 @@
 #include "azure_iot_utilities.h"
 
 
-// const char *wifiSsid = "jancee-hiwifi";    
-// const char *wifiPsk = "iloveyou";
-
-const char *wifiSsid = "MEIZU";    
-const char *wifiPsk = "12345678";
+// Change ssid and psk for your WiFi router 
+const char *wifiSsid = "SSID";    
+const char *wifiPsk = "PSK";
 
 int uart3Fd = -1;
 static const struct timespec LoopInterval = { 0, 200000000 };
