@@ -13,7 +13,7 @@
 #define FAN_PWR_LEVEL_2       2
 #define FAN_PWR_LEVEL_3       3
 
-SoftwareSerial sser(8asz, 7);  // RX TX
+SoftwareSerial sser(8, 7);  // RX TX
 
 const char* cmd_pwr_level = "pwr_level:";
 static uint8_t _local_pwr_level = FAN_PWR_LEVEL_CLOSE;
